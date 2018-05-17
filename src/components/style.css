@@ -1,0 +1,277 @@
+.menu-item:first-child {
+    border: none;
+}
+
+.menu-item {
+    transition: 0.25s ease-out;
+    font-size: .86rem;
+}
+
+.menu-item :hover {
+    background: #ed7d31;
+}
+
+.menu {
+    position: relative;
+    background: #2a2a2a;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 5px solid #ed7d31;
+    height: 47px;
+    display: none;
+}
+
+.menu-close {
+    display: none;
+}
+
+.menu-open {
+    display: inline-table;
+}
+
+.menu-collapse {
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+}
+
+@media screen and (min-width: 767px) {
+    .menu-item {
+        float: left;
+        position: relative;
+    }
+}
+
+
+@media screen and (min-width: 767px) {
+     .menu {
+         max-height: none;
+         border-bottom: 5px solid #ed7d31;
+         min-height: 42px;
+         display: inline-block;
+    }
+}
+
+.menu-link {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu-toggle {
+    background: #2a2a2a;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 700;
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@media screen and (min-width: 767px) {
+    .menu-toggle {
+        display: none;
+    }
+
+
+}
+
+
+
+.header-logo {
+    padding: 20px;
+    overflow: hidden;
+    max-width: 240px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 13px;
+    margin-left: 13px;
+}
+
+
+.header-banner {
+    max-width: 728px;
+    max-height: 90px;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 13px;
+    margin-left: 53px;
+    margin-bottom: 22px;
+}
+
+.header-wrapper {
+    height: 135px;
+}
+
+@media (max-width: 955px) {
+    .header-wrapper {
+        text-align: center;
+    }
+    .header-banner {
+        display: none;
+    }
+}
+
+.widget-drip {
+    background-color: #e9eef3;
+    padding: 2rem;
+    text-align: center;
+}
+
+.widget-drip h3 {
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+.widget-drip .description {
+    color: #6E6E6E;
+    margin: 1rem 0rem;
+}
+
+.widget-drip input[type="email"] {
+    line-height: 1.5rem;
+    font-size: .90rem;
+    color: #1f1e1e;
+    vertical-align: middle;
+    transition: all 0.25s ease-in-out;
+
+    position: relative;
+    padding: 5px;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0;
+    margin-right: 5px;
+}
+
+.widget-drip input {
+    display: inline-block;
+}
+
+input[type=email] {
+    width: 60%;
+}
+
+.widget-drip input[type="submit"] {
+    background-color: #3d74d5;
+    border-radius: 0px;
+}
+
+
+input[type=submit] {
+    display: inline-block;
+    min-width: 150px;
+    font-weight: 700;
+    color: #fff;
+    padding: 6px;
+    background: #ed7d31;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.widget-drip p {
+    font-size: 0.70rem;
+    color: #6E6E6E;
+    margin-top: 1rem;
+}
+
+.widget-drip a {
+    color: #3d74d5;
+}
+
+.widget:last-child {
+    margin-bottom: 0;
+}
+
+.footer {
+    padding: 10px 25px;
+    border-top: 3px solid #999;
+    background: #2a2a2a;
+    height: 40px;
+}
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.footer__copyright, .footer__copyright-credits {
+    font-size: 0.75rem;
+    color: #999;
+}
+
+.footer__copyright-credits a {
+    color: #999;
+}
+
+.container, .container-inner {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        height: 100%;
+    }
+}
+
+.svg-logo {
+    width: 220px;
+    height: 87px;
+}
+
+.st0 {
+    fill:#3C78D8;
+}
+.st1 {
+    fill:#434343;
+}
+.st2 {
+    fill:#645E55;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#pButton {
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    outline: none;
+    padding: 0rem 1.25rem;
+}
+
+.audioplayer .play {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNa6D8CrAHUC2P8XRidn_-w1_3bN7warhRH5f4rZBIry2oAja0") no-repeat;
+}
+
+.nav-active {
+    background: #ed7d31;
+}
